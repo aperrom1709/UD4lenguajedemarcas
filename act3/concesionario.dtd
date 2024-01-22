@@ -1,0 +1,7 @@
+<!ELEMENT Concesionario (Coche*)>
+<!ELEMENT Coche ANY>
+<!ATTLIST Coche matricula CDATA #REQUIRED>
+<!ELEMENT Marca (#PCDATA)>
+<!ELEMENT Modelo (#PCDATA)>
+<!ELEMENT Año (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
