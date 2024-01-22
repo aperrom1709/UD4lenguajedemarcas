@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="libreria.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>    
+<libreria>
+    
+ <libro>
+    <autores>
+        <autor>
+            <titulo>firulais</titulo>
+            <titulo>ataca</titulo>
+            <escritor>popi</escritor>
+        </autor>
+        <autor>
+            <titulo>titanic</titulo>
+            <titulo1>volado</titulo1>
+            <escritor>erulencio</escritor>
+        </autor>
+    </autores>
+    <titulo>The post</titulo>
+    <editorial>fiumba</editorial>
+    <fecha>2033</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>planeta</titulo>
+            <titulo2>vegeta</titulo2>
+            <escritor>vegeta</escritor>
+        </autor>
+        <autor>
+            <titulo>gargantua</titulo>
+            <titulo1>en occidente</titulo1>
+            <escritor>pi</escritor>
+        </autor>
+    </autores>
+    <titulo>The predator</titulo>
+    <editorial>oxford</editorial>
+    <fecha>2021</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>la vida</titulo>
+            <titulo2>de pi</titulo2>
+            <escritor>pirri</escritor>
+        </autor>
+        <autor>
+            <titulo>super</titulo>
+            <titulo1>2</titulo1>
+            <escritor>toriyama</escritor>
+        </autor>
+    </autores>
+    <titulo>The fosil</titulo>
+    <editorial>Planeta</editorial>
+    <fecha>1999</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>popit</titulo>
+            <titulo2>popop</titulo2>
+            <escritor>misterio</escritor>
+        </autor>
+        <autor>
+            <titulo>pepe</titulo>
+            <titulo1>pepito</titulo1>
+            <escritor>pepe</escritor>
+        </autor>
+    </autores>
+    <titulo> coches</titulo>
+    <editorial>gran tour</editorial>
+    <fecha>2005</fecha>
+    <ISBN>293597829428</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>poropopo</titulo>
+            <titulo2>popero</titulo2>
+            <escritor>pipo</escritor>
+        </autor>
+        <autor>
+            <titulo>el</titulo>
+            <titulo1>sismo</titulo1>
+            <escritor>violin</escritor>
+        </autor>
+    </autores>
+    <titulo> catstrofe</titulo>
+    <editorial>bbc</editorial>
+    <fecha>0011</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>pom</titulo>
+            <titulo2>pim</titulo2>
+            <escritor>pompa</escritor>
+        </autor>
+        <autor>
+            <titulo>te</titulo>
+            <titulo1>invito</titulo1>
+            <escritor>jugar</escritor>
+        </autor>
+    </autores>
+    <titulo>The abism</titulo>
+    <editorial>Planeta</editorial>
+    <fecha>2021</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>ale</titulo>
+            <titulo2>canta</titulo2>
+            <escritor>alejandro</escritor>
+        </autor>
+        <autor>
+            <titulo>alvaro</titulo>
+            <titulo1>juega</titulo1>
+            <escritor>alvaro</escritor>
+        </autor>
+    </autores>
+    <titulo>mounstruo </titulo>
+    <editorial>Planeta</editorial>
+    <fecha>2010</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>perro</titulo>
+            <titulo2>gato</titulo2>
+            <escritor>abel</escritor>
+        </autor>
+        <autor>
+            <titulo>gato</titulo>
+            <titulo1>raton</titulo1>
+            <escritor>jesus</escritor>
+        </autor>
+    </autores>
+    <titulo>coche </titulo>
+    <editorial>bcc</editorial>
+    <fecha>2000</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>robot</titulo>
+            <titulo2>peligroso</titulo2>
+            <escritor>J.r</escritor>
+        </autor>
+        <autor>
+            <titulo>aitor</titulo>
+            <titulo1>menta</titulo1>
+            <escritor>tesla</escritor>
+        </autor>
+    </autores>
+    <titulo>The fish</titulo>
+    <editorial>Planeta</editorial>
+    <fecha>1234</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+ <libro>
+    <autores>
+        <autor>
+            <titulo>pez</titulo>
+            <titulo2>payaso</titulo2>
+            <escritor>pescador</escritor>
+        </autor>
+        <autor>
+            <titulo>juan</titulo>
+            <titulo1>fantasma</titulo1>
+            <escritor>fermando alonso</escritor>
+        </autor>
+    </autores>
+    <titulo>f1</titulo>
+    <editorial>dazn</editorial>
+    <fecha>2017</fecha>
+    <ISBN>9788408237044</ISBN>
+ </libro>
+    
+</libreria>
