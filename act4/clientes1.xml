@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<clientes>
+    <sede>
+        <dir1>Palacio Real de Riofrío</dir1>
+        <dir2>Bosque de Riofrío</dir2>
+        <empleado>Empleado 1</empleado>
+        <fecha>2024-01-01</fecha>
+        <cliente1>
+            <cod>001</cod>
+            <descripcion>Real Sitio de Riofrío</descripcion>
+            <numero>100</numero>
+            <coste>200</coste>
+            <resumen>Resumen del Real Sitio de Riofrío</resumen>
+            <plazo>30 días</plazo>
+        </cliente1>
+        <cliente2>
+            <cod>002</cod>
+            <descripcion>Pirriland </descripcion>
+            <numero>50</numero>
+            <coste>100</coste>
+            <resumen>Resumen de Pirriland</resumen>
+            <plazo>60 días</plazo>
+        </cliente2>
+        <cliente3>
+            <cod>003</cod>
+            <descripcion>Nurburgringo</descripcion>
+            <numero>75</numero>
+            <coste>150</coste>
+            <resumen>Resumen de Nurburgringo</resumen>
+            <plazo>45 días</plazo>
+        </cliente3>
+        <cliente4>
+            <cod>004</cod>
+            <descripcion>red bull ring</descripcion>
+            <numero>60</numero>
+            <coste>120</coste>
+            <resumen>Resumen de red bull ring</resumen>
+            <plazo>50 días</plazo>
+        </cliente4>
+        <cliente5>
+            <cod>005</cod>
+            <descripcion>trial mountain</descripcion>
+            <numero>80</numero>
+            <coste>180</coste>
+            <resumen>Resumen de trial mountain</resumen>
+            <plazo>65 días</plazo>
+        </cliente5>
+        <cliente6>
+            <cod>006</cod>
+            <descripcion>montmelo</descripcion>
+            <numero>90</numero>
+            <coste>210</coste>
+            <resumen>Resumen de montmelo</resumen>
+            <plazo>70 días</plazo>
+        </cliente6>
+        <cliente7>
+            <cod>007</cod>
+            <descripcion>jarama</descripcion>
+            <numero>100</numero>
+            <coste>240</coste>
+            <resumen>Resumen de jarama</resumen>
+            <plazo>75 días</plazo>
+        </cliente7>
+        <cliente8>
+            <cod>008</cod>
+            <descripcion>le mans</descripcion>
+            <numero>110</numero>
+            <coste>270</coste>
+            <resumen>Resumen de le mans</resumen>
+            <plazo>80 días</plazo>
+        </cliente8>
+        <cliente9>
+            <cod>009</cod>
+            <descripcion>monaco</descripcion>
+            <numero>120</numero>
+            <coste>300</coste>
+            <resumen>Resumen de monaco</resumen>
+            <plazo>85 días</plazo>
+        </cliente9>
+        <cliente10>
+            <cod>010</cod>
+            <descripcion>dragon trail</descripcion>
+            <numero>130</numero>
+            <coste>330</coste>
+            <resumen>Resumen de dragon trail</resumen>
+            <plazo>90 días</plazo>
+        </cliente10>
+    </sede></clientes>

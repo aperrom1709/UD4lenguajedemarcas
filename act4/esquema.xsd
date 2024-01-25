@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="clientes">
+ <xs:complexType>
+    <xs:sequence>
+      <xs:element name="sede">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="dir1" type="xs:string"/>
+            <xs:element name="dir2" type="xs:string"/>
+            <xs:element name="empleado" type="xs:string"/>
+            <xs:element name="fecha" type="xs:date"/>
+            <xs:element name="cliente1" type="clienteType"/>
+            <xs:element name="cliente2" type="clienteType"/>
+            <xs:element name="cliente3" type="clienteType"/>
+            <xs:element name="cliente4" type="clienteType"/>
+            <xs:element name="cliente5" type="clienteType"/>
+            <xs:element name="cliente6" type="clienteType"/>
+            <xs:element name="cliente7" type="clienteType"/>
+            <xs:element name="cliente8" type="clienteType"/>
+            <xs:element name="cliente9" type="clienteType"/>
+            <xs:element name="cliente10" type="clienteType"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+ </xs:complexType>
+</xs:element>
+
+<xs:complexType name="clienteType">
+ <xs:sequence>
+    <xs:element name="cod" type="xs:string"/>
+    <xs:element name="descripcion" type="xs:string"/>
+    <xs:element name="numero" type="xs:decimal"/>
+    <xs:element name="coste" type="xs:decimal"/>
+    <xs:element name="resumen" type="xs:string"/>
+    <xs:element name="plazo" type="xs:string"/>
+ </xs:sequence>
+</xs:complexType>
+
+</xs:schema>
