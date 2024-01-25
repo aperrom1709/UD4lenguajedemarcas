@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dam.dtd" type="application/xml-dtd"?>
+<Alumnos>
+    <Alumno>
+        <NIF>12345678Z</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones></Observaciones>
+        <IP>192.168.1.1</IP>
+        <MAC></MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>23456789Y</NIF>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Falta de entusiasmo</Observaciones>
+        <IP></IP>
+        <MAC>00:11:22:33:44:55</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>34567890X</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones></Observaciones>
+        <IP></IP>
+        <MAC>00:66:77:88:99:AA</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>45678901W</NIF>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Falta de participación</Observaciones>
+        <IP>192.168.1.2</IP>
+        <MAC></MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>56789012V</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones></Observaciones>
+        <IP></IP>
+        <MAC>00:BB:CC:DD:EE:FF</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>67890123U</NIF>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Falta de compromiso</Observaciones>
+        <IP>192.168.1.3</IP>
+        <MAC></MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>78901234T</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones></Observaciones>
+        <IP></IP>
+        <MAC>00:GG:HH:II:JJ:KK</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>89012345S</NIF>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Falta de dedicación</Observaciones>
+        <IP>192.168.1.4</IP>
+        <MAC></MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>90123456R</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones></Observaciones>
+        <IP></IP>
+        <MAC>00:LL:MM:NN:OO:PP</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>01234567Q</NIF>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Falta de profesionalismo</Observaciones>
+        <IP>192.168.1.5</IP>
+        <MAC></MAC>
+    </Alumno>
+</Alumnos>
