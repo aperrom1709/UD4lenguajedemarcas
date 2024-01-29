@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modulo [
+<!ELEMENT modulo (nombre, contenidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenidos (ud*)>
+<!ELEMENT ud (tipo, descripcion)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+]>
+<modulo>
+    <nombre>Nombre del módulo profesional</nombre>
+    <contenidos>
+        <ud>
+            <tipo>Tipo de la Unidad Didáctica 1</tipo>
+            <descripcion>Descripción de la Unidad Didáctica 1</descripcion>
+        </ud>
+        <ud>
+            <tipo>Tipo de la Unidad Didáctica 2</tipo>
+            <descripcion>Descripción de la Unidad Didáctica 2</descripcion>
+        </ud>
+        
+    </contenidos>
+</modulo>
