@@ -1,0 +1,18 @@
+<!ELEMENT InformeVentas (Encabezado, Region+)>
+<!ELEMENT Encabezado (Fecha)>
+<!ELEMENT Fecha (#PCDATA)>
+<!ELEMENT Region (Trimestre1 | Trimestre2 | Trimestre3 | Trimestre4)*>
+<!ATTLIST Region nombre CDATA #REQUIRED>
+<!ELEMENT Trimestre1 (semestre1, LibrosVendidos1)>
+<!ELEMENT semestre1 (#PCDATA)>
+<!ELEMENT LibrosVendidos1 (#PCDATA)>
+<!ELEMENT Trimestre2 (semestre2, LibrosVendidos2)>
+<!ELEMENT semestre2 (#PCDATA)>
+<!ELEMENT LibrosVendidos2 (#PCDATA)>
+<!ELEMENT Trimestre3 (semestre3, LibrosVendidos3)>
+<!ELEMENT semestre3 (#PCDATA)>
+<!ELEMENT LibrosVendidos3 (#PCDATA)>
+<!ELEMENT Trimestre4 (semestre4, LibrosVendidos4)>
+<!ELEMENT semestre4 (#PCDATA)>
+<!ELEMENT LibrosVendidos4 (#PCDATA)>
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="InformeVentas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Encabezado">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Fecha" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Region" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Trimestre1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="semestre1" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos1" type="xs:integer"/>
+
+                                        <xs:element name="semestre2" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos2" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre3" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos3" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre4" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos4" type="xs:integer"/>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Trimestre2">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="semestre1" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos1" type="xs:integer"/>
+
+                                        <xs:element name="semestre2" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos2" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre3" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos3" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre4" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos4" type="xs:integer"/>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Trimestre3">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="semestre1" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos1" type="xs:integer"/>
+
+                                        <xs:element name="semestre2" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos2" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre3" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos3" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre4" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos4" type="xs:integer"/>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Trimestre4">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="semestre1" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos1" type="xs:integer"/>
+
+                                        <xs:element name="semestre2" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos2" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre3" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos3" type="xs:integer"/>
+                                        <xs:sequence>
+                                        <xs:element name="semestre4" type="xs:integer"/>
+                                        <xs:element name="LibrosVendidos4" type="xs:integer"/>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+ 
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<InformeVentas>
+    <Encabezado>
+        <Fecha>30/12/2009</Fecha>
+    </Encabezado>
+    <Region nombre="Norte">
+        <Trimestre1>
+            <semestre1>1</semestre1>
+            <LibrosVendidos1>24000</LibrosVendidos1>
+        </Trimestre1>
+        <Trimestre2>
+            <semestre2>2</semestre2>
+            <LibrosVendidos2>38600</LibrosVendidos2>
+        </Trimestre2>
+        <Trimestre3>
+            <semestre3>3</semestre3>
+            <LibrosVendidos3>23242</LibrosVendidos3>
+        </Trimestre3>
+        <Trimestre4>
+            <semestre4>4</semestre4>
+            <LibrosVendidos4>23324</LibrosVendidos4>
+        </Trimestre4>
+    </Region>
+    <Region nombre="Centro">
+        <Trimestre1>
+            <semestre1>1</semestre1>
+            <LibrosVendidos1>24352</LibrosVendidos1>
+        </Trimestre1>
+        <Trimestre2>
+            <semestre2>2</semestre2>
+            <LibrosVendidos2>16080</LibrosVendidos2>
+        </Trimestre2>
+        <Trimestre3>
+            <semestre3>3</semestre3>
+            <LibrosVendidos3>25000</LibrosVendidos3>
+        </Trimestre3>
+        <Trimestre4>
+            <semestre4>4</semestre4>
+            <LibrosVendidos4>29000</LibrosVendidos4>
+        </Trimestre4>
+    </Region>
+    <Region nombre="Sur">
+        <Trimestre1>
+            <semestre1>1</semestre1>
+            <LibrosVendidos1>27000</LibrosVendidos1>
+        </Trimestre1>
+        <Trimestre2>
+            <semestre2>2</semestre2>
+            <LibrosVendidos2>31400</LibrosVendidos2>
+        </Trimestre2>
+        <Trimestre3>
+            <semestre3>3</semestre3>
+            <LibrosVendidos3>40100</LibrosVendidos3>
+        </Trimestre3>
+        <Trimestre4>
+            <semestre4>4</semestre4>
+            <LibrosVendidos4>30000</LibrosVendidos4>
+        </Trimestre4>
+    </Region>
+</InformeVentas>
