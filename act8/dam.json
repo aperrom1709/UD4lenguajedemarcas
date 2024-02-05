@@ -1,0 +1,176 @@
+{
+  "Alumnos": {
+    "Alumno": [
+      {
+        "NIF": [
+          "12345678Z"
+        ],
+        "Resultado": [
+          "apto"
+        ],
+        "Observaciones": [
+          ""
+        ],
+        "IP": [
+          "192.168.1.1"
+        ],
+        "MAC": [
+          ""
+        ]
+      },
+      {
+        "NIF": [
+          "23456789Y"
+        ],
+        "Resultado": [
+          "No apto"
+        ],
+        "Observaciones": [
+          "Falta de entusiasmo"
+        ],
+        "IP": [
+          ""
+        ],
+        "MAC": [
+          "00:11:22:33:44:55"
+        ]
+      },
+      {
+        "NIF": [
+          "34567890X"
+        ],
+        "Resultado": [
+          "apto"
+        ],
+        "Observaciones": [
+          ""
+        ],
+        "IP": [
+          ""
+        ],
+        "MAC": [
+          "00:66:77:88:99:AA"
+        ]
+      },
+      {
+        "NIF": [
+          "45678901W"
+        ],
+        "Resultado": [
+          "No apto"
+        ],
+        "Observaciones": [
+          "Falta de participación"
+        ],
+        "IP": [
+          "192.168.1.2"
+        ],
+        "MAC": [
+          ""
+        ]
+      },
+      {
+        "NIF": [
+          "56789012V"
+        ],
+        "Resultado": [
+          "apto"
+        ],
+        "Observaciones": [
+          ""
+        ],
+        "IP": [
+          ""
+        ],
+        "MAC": [
+          "00:BB:CC:DD:EE:FF"
+        ]
+      },
+      {
+        "NIF": [
+          "67890123U"
+        ],
+        "Resultado": [
+          "No apto"
+        ],
+        "Observaciones": [
+          "Falta de compromiso"
+        ],
+        "IP": [
+          "192.168.1.3"
+        ],
+        "MAC": [
+          ""
+        ]
+      },
+      {
+        "NIF": [
+          "78901234T"
+        ],
+        "Resultado": [
+          "apto"
+        ],
+        "Observaciones": [
+          ""
+        ],
+        "IP": [
+          ""
+        ],
+        "MAC": [
+          "00:GG:HH:II:JJ:KK"
+        ]
+      },
+      {
+        "NIF": [
+          "89012345S"
+        ],
+        "Resultado": [
+          "No apto"
+        ],
+        "Observaciones": [
+          "Falta de dedicación"
+        ],
+        "IP": [
+          "192.168.1.4"
+        ],
+        "MAC": [
+          ""
+        ]
+      },
+      {
+        "NIF": [
+          "90123456R"
+        ],
+        "Resultado": [
+          "apto"
+        ],
+        "Observaciones": [
+          ""
+        ],
+        "IP": [
+          ""
+        ],
+        "MAC": [
+          "00:LL:MM:NN:OO:PP"
+        ]
+      },
+      {
+        "NIF": [
+          "01234567Q"
+        ],
+        "Resultado": [
+          "No apto"
+        ],
+        "Observaciones": [
+          "Falta de profesionalismo"
+        ],
+        "IP": [
+          "192.168.1.5"
+        ],
+        "MAC": [
+          ""
+        ]
+      }
+    ]
+  }
+}

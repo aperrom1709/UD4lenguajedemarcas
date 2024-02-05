@@ -1,0 +1,148 @@
+{
+  "InformeVentas": {
+    "Encabezado": [
+      {
+        "Fecha": [
+          "30/12/2009"
+        ]
+      }
+    ],
+    "Region": [
+      {
+        "$": {
+          "nombre": "Norte"
+        },
+        "Trimestre1": [
+          {
+            "semestre1": [
+              "1"
+            ],
+            "LibrosVendidos1": [
+              "24000"
+            ]
+          }
+        ],
+        "Trimestre2": [
+          {
+            "semestre2": [
+              "2"
+            ],
+            "LibrosVendidos2": [
+              "38600"
+            ]
+          }
+        ],
+        "Trimestre3": [
+          {
+            "semestre3": [
+              "3"
+            ],
+            "LibrosVendidos3": [
+              "NO INFO"
+            ]
+          }
+        ],
+        "Trimestre4": [
+          {
+            "semestre4": [
+              "4"
+            ],
+            "LibrosVendidos4": [
+              "NO INFO"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "nombre": "Centro"
+        },
+        "Trimestre1": [
+          {
+            "semestre1": [
+              "1"
+            ],
+            "LibrosVendidos1": [
+              "NO INFO"
+            ]
+          }
+        ],
+        "Trimestre2": [
+          {
+            "semestre2": [
+              "2"
+            ],
+            "LibrosVendidos2": [
+              "16080"
+            ]
+          }
+        ],
+        "Trimestre3": [
+          {
+            "semestre3": [
+              "3"
+            ],
+            "LibrosVendidos3": [
+              "25000"
+            ]
+          }
+        ],
+        "Trimestre4": [
+          {
+            "semestre4": [
+              "4"
+            ],
+            "LibrosVendidos4": [
+              "29000"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "nombre": "Sur"
+        },
+        "Trimestre1": [
+          {
+            "semestre1": [
+              "1"
+            ],
+            "LibrosVendidos1": [
+              "27000"
+            ]
+          }
+        ],
+        "Trimestre2": [
+          {
+            "semestre2": [
+              "2"
+            ],
+            "LibrosVendidos2": [
+              "31400"
+            ]
+          }
+        ],
+        "Trimestre3": [
+          {
+            "semestre3": [
+              "3"
+            ],
+            "LibrosVendidos3": [
+              "40100"
+            ]
+          }
+        ],
+        "Trimestre4": [
+          {
+            "semestre4": [
+              "4"
+            ],
+            "LibrosVendidos4": [
+              "30000"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
