@@ -1,0 +1,158 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+      "InformeVentas": {
+        "type": "object",
+        "properties": {
+          "Encabezado": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Fecha": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "Fecha"
+              ]
+            }
+          },
+          "Region": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "$": {
+                  "type": "object",
+                  "properties": {
+                    "nombre": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "nombre"
+                  ]
+                },
+                "Trimestre1": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "semestre1": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "LibrosVendidos1": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "semestre1",
+                      "LibrosVendidos1"
+                    ]
+                  }
+                },
+                "Trimestre2": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "semestre2": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "LibrosVendidos2": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "semestre2",
+                      "LibrosVendidos2"
+                    ]
+                  }
+                },
+                "Trimestre3": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "semestre3": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "LibrosVendidos3": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "semestre3",
+                      "LibrosVendidos3"
+                    ]
+                  }
+                },
+                "Trimestre4": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "semestre4": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "LibrosVendidos4": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "semestre4",
+                      "LibrosVendidos4"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "$",
+                "Trimestre1",
+                "Trimestre2",
+                "Trimestre3",
+                "Trimestre4"
+              ]
+            }
+          }
+        },
+        "required": [
+          "Encabezado",
+          "Region"
+        ]
+      }
+    },
+    "required": [
+      "InformeVentas"
+    ]
+  }

@@ -1,0 +1,115 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+      "libreria": {
+        "type": "object",
+        "properties": {
+          "libro": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "libro": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "autores": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "autor": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "titulo": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "escritor": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "titulo2": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "titulo1": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "titulo",
+                                  "escritor"
+                                ]
+                              }
+                            }
+                          },
+                          "required": [
+                            "autor"
+                          ]
+                        }
+                      },
+                      "titulo": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "editorial": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "fecha": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "ISBN": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "autores",
+                      "titulo",
+                      "editorial",
+                      "fecha",
+                      "ISBN"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "libro"
+              ]
+            }
+          }
+        },
+        "required": [
+          "libro"
+        ]
+      }
+    },
+    "required": [
+      "libreria"
+    ]
+  }
